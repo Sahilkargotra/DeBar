@@ -1,0 +1,79 @@
+/* General container styles */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    //background: linear-gradient(to bottom right, #6c63ff, #f6f7f9);
+  }
+  
+  /* Box around the form */
+  .login-box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    max-width: 600px;
+    width: 90%; /* Ensure responsiveness on smaller screens */
+    text-align: center;
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 3rem; /* Larger title */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Input fields */
+  .login-input {
+    width: 100%;
+    padding: 15px 20px; /* Larger padding */
+    margin: 15px 0; /* Increase space between inputs */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Slightly more rounded corners */
+    font-size: 1.2rem; /* Larger font size */
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-input:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 15px 20px; /* Larger button */
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #5247cc;
+  }
+  
+  /* Footer text */
+  .login-footer {
+    margin-top: 20px;
+    font-size: 1.2rem; /* Larger text */
+    color: #555;
+  }
+  
+  .register-link {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,30 @@
+/* For small screens (e.g., mobile phones) */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* For medium screens (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      padding: 20px;
+    }
+  }
+  
+  /* For large screens (e.g., desktops) */
+  @media (min-width: 1025px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      padding: 30px;
+    }
+  }
+  
