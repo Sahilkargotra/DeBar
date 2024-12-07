@@ -28,7 +28,7 @@ function Cardd() {
        border: ' 1px smokewhite solid',
        boxShadow: '10px 10px 10px  grey'
       }}>
-      <Card.Img variant="top" src={product.image} style= {{height:'450px',width: "100%", objectFit: "cover",}} />
+      <Card.Img variant="top" src={product.image} style= {{height:'430px',width: "100%", objectFit: "cover",}} />
       <Card.Body  style={{
               display: "flex",
               flexDirection: "column",
