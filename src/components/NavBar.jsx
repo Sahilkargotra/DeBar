@@ -8,6 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import "../App.css"
 
 function NavBar() {
   const [searchQuery, setSearchQuery] = useState(''); // State to store the search query

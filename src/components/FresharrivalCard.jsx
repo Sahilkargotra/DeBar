@@ -2,6 +2,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import barProducts from '../../products';
+import "../App.css"
 
 function FresharrivalCard(){
   const fresharrival = barProducts.filter((product)=> product.tag === "Fresharrival");

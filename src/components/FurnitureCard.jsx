@@ -2,6 +2,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import barProducts from '../../products';
+import "../App.css"
 
 function FurnitureCard(){
   const furniturecard = barProducts.filter((product)=> product.category === "Furniture");

@@ -2,7 +2,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import barProducts from '../../products';
-
+import "../App.css"
 function AccessoriesCard(){
   const accessoriescard = barProducts.filter((product)=> product.category === "Accessories");
 
